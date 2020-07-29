@@ -12,7 +12,7 @@ let count=3;
 // Event on PIN Generate Button
 
 pinButton.addEventListener("click", () => {
-let ranNumber=Math.floor(Math.random()*(10000-1000)+1000) 
+let ranNumber=Math.floor(Math.random()*(10000-1000)+1000)  // for not less then 4 digit anyhow 
 pinDisplay.value=ranNumber;
 wrongNum.style.display="none";
 rightNum.style.display="none";
